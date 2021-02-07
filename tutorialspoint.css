@@ -1,0 +1,82 @@
+body {
+  font-family: "Open Sans", sans-serif;
+ 
+}
+
+h2, p, h1, h3, h4 {
+   font-family: "Open Sans", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 50rem !important;
+}
+
+.tutorial-content p {
+    font-size: 1.6rem !important;
+  color: #333333;
+  margin: 16px 0;
+  line-height: 23.2px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+.tutorial-content h2 {
+    color: rgb(51, 51, 51);
+  font-size: 18.72px !important;
+  font-weight: 700;
+}
+
+.tutorial-content {
+  background-color: #fff;
+}
+
+.result, pre.prettyprint {
+  background: #f1f1f1 !important;
+  border: none !important;
+  padding: 15px !important;
+  opacity: .8;
+}
+
+
+/* side bar */
+body    {
+  background-color: #fafafa;
+}
+
+:root {
+  --sidebar-text-color: rgb(54, 65, 73);
+  /* --sidebar-text-color: rgb(0, 255, 73); */
+}
+
+ul.toc>li a {
+  color: var(--sidebar-text-color);
+  color: rgb(54, 65, 73);
+}
+
+
+
+
+ul.toc>li[style]  {
+  background-color: #fff !important;
+}
+
+ul.toc>li[style] a {
+  color: #008cff !important;
+}
+
+/* Width */
+.google-right-ads.mui-col-md-2 { 
+  display: none;
+}
+
+.tutorial-content.mui-col-md-6 {
+  width: 70%;
+  
+}
